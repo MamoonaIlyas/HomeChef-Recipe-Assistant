@@ -1,0 +1,62 @@
+/* --- NEW COLOR PALETTE: AMBER GOLD --- */
+/* Primary: #ffb703 */
+/* Hover:   #e8a502 */
+/* Pressed: #d19202 */
+
+* { background-color: #1a1a1a; color: #f0f0f0; font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; border: none; }
+QMainWindow { background-color: #121212; }
+QTabWidget::pane { border: 1px solid #333; top: -1px; background: #1e1e1e; }
+QTabBar::tab { background: #222; color: #f0f0f0; border: 1px solid #333; border-bottom: none; border-top-left-radius: 8px; border-top-right-radius: 8px; min-width: 120px; padding: 10px; margin-right: 2px; transition: background-color 0.3s ease; }
+QTabBar::tab:selected { background: #333; border-bottom: 2px solid #ffb703; font-weight: bold; }
+QTabBar::tab:hover { background-color: #383838; }
+QLineEdit, QTextEdit { background-color: #2b2b2b; border: 1px solid #444; border-radius: 8px; padding: 10px; color: #f0f0f0; }
+QTextEdit#recipe_details { line-height: 1.5; font-size: 15px; }
+QPushButton { background-color: #ffb703; color: #121212; border: none; padding: 12px; border-radius: 8px; font-weight: bold; min-height: 25px; cursor: pointer; transition: background-color 0.2s ease, box-shadow 0.2s ease; }
+QPushButton:hover { background-color: #e8a502; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+QPushButton:pressed { background-color: #d19202; box-shadow: none; }
+QLabel { color: #f0f0f0; font-weight: bold; padding: 5px 0; }
+QLabel#recipe_title { font-size: 22px; font-weight: bold; color: #ffb703; padding-bottom: 10px; }
+QLabel#recipe_meta { font-size: 13px; font-weight: normal; color: #b0b0b0; }
+QLabel#recipe_image { border: 1px solid #444; border-radius: 8px; background-color: #2b2b2b; }
+QListWidget { background-color: #2b2b2b; border: 1px solid #444; border-radius: 8px; padding: 5px; }
+QListWidget::item { padding: 12px; border-bottom: 1px solid #333; cursor: pointer; }
+QListWidget::item:selected { background-color: #ffb703; color: #121212; border-radius: 6px; }
+QScrollBar:vertical { border: none; background: #2b2b2b; width: 14px; margin: 0px; }
+QScrollBar::handle:vertical { background: #555; min-height: 20px; border-radius: 7px; }
+QScrollBar::handle:vertical:hover { background: #ffb703; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { background: none; height: 0px; }
+QLineEdit#assistant_input_bar { padding: 12px; font-size: 16px; border-radius: 22px; border: 1px solid #555; }
+QLineEdit#assistant_input_bar:focus { border: 1px solid #ffb703; }
+QPushButton#assistant_send_btn { min-width: 44px; max-width: 44px; min-height: 44px; max-height: 44px; border-radius: 22px; padding: 0px; }
+QTextEdit#assistant_reply_box { font-size: 16px; line-height: 1.6; background-color: #1e1e1e; border-radius: 12px; border: 1px solid #333; }
+QTextEdit#assistant_reply_box strong { color: #ffb703; font-weight: bold; }
+QTextEdit#assistant_reply_box ul { list-style-type: disc; margin-left: 20px; }
+QTextEdit#assistant_reply_box li { margin-bottom: 8px; }
+QWidget#pantry_info_panel { background-color: #2b2b2b; border-radius: 8px; border: 1px solid #444; }
+QLabel#pantry_icon_label { padding: 20px; }
+QLabel#pantry_info_title { font-size: 18px; color: #ffb703; padding-top: 0px; }
+QLabel#pantry_info_text { font-weight: normal; color: #b0b0b0; line-height: 1.5; padding: 0 20px 20px 20px; }
+
+/* --- NEW: Custom Dialog (QMessageBox) Styling --- */
+QWidget#custom_dialog_widget {
+    background-color: #2b2b2b;
+    border: 1px solid #444;
+    border-radius: 12px;
+}
+QLabel#custom_dialog_icon {
+    padding-top: 10px;
+}
+QLabel#custom_dialog_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffb703;
+}
+QLabel#custom_dialog_message {
+    font-size: 16px;
+    font-weight: normal;
+    color: #f0f0f0;
+    min-width: 300px;
+}
+QPushButton#custom_dialog_button {
+    padding: 10px 40px;
+}

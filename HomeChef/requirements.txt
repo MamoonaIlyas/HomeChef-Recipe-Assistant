@@ -1,0 +1,9 @@
+# Core runtime
+PySide6>=6.6.0
+# OpenAI SDK
+openai>=1.40.0
+# Env loader
+python-dotenv>=1.0.1
+# Optional (type hints, not required at runtime)
+pydantic>=2.7.0
+

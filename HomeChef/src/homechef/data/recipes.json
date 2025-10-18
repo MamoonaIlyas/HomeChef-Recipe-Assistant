@@ -1,0 +1,135 @@
+[
+    {
+        "id": "1",
+        "title": "Classic Mac and Cheese",
+        "ingredients": ["elbow macaroni", "butter", "all-purpose flour", "milk", "shredded cheddar cheese", "salt", "pepper"],
+        "steps": [
+            "Boil macaroni according to package directions.",
+            "While macaroni is cooking, melt butter in a saucepan over medium heat.",
+            "Whisk in flour until smooth, then slowly whisk in milk.",
+            "Stir constantly until the mixture thickens, about 5 minutes.",
+            "Remove from heat and stir in cheese until melted and smooth.",
+            "Season with salt and pepper.",
+            "Drain macaroni and stir into the cheese sauce.",
+            "Serve immediately."
+        ],
+        "time_minutes": 25,
+        "difficulty": "Easy",
+       "image_path": "src/homechef/data/images/mac_and_cheese.png"
+    },
+    {
+        "id": "2",
+        "title": "Spaghetti Carbonara",
+        "ingredients": ["spaghetti", "guanciale or pancetta", "eggs", "pecorino romano cheese", "black pepper"],
+        "steps": [
+            "Cook spaghetti according to package directions in salted water.",
+            "While pasta cooks, chop guanciale into small cubes and cook in a skillet until crisp.",
+            "In a bowl, whisk eggs with grated Pecorino Romano cheese and plenty of black pepper.",
+            "Drain the spaghetti, reserving some pasta water.",
+            "Toss the hot spaghetti with the guanciale, then quickly pour in the egg and cheese mixture, stirring constantly.",
+            "The heat from the pasta will cook the eggs. Add a little pasta water if needed to create a creamy sauce.",
+            "Serve immediately, topped with more cheese and pepper."
+        ],
+        "time_minutes": 20,
+        "difficulty": "Medium",
+        "image_path": "src/homechef/data/images/carbonara.png"
+    },
+    {
+        "id": "3",
+        "title": "Simple Tomato Soup",
+        "ingredients": ["canned tomatoes", "onion", "garlic", "vegetable broth", "heavy cream", "basil", "olive oil"],
+        "steps": [
+            "Heat olive oil in a pot. Sauté chopped onion and garlic until soft.",
+            "Add canned tomatoes and vegetable broth.",
+            "Bring to a simmer, then reduce heat and let cook for 15 minutes.",
+            "Use an immersion blender to puree the soup until smooth.",
+            "Stir in heavy cream and fresh basil.",
+            "Season with salt and pepper to taste and serve hot."
+        ],
+        "time_minutes": 30,
+        "difficulty": "Easy",
+        "image_path": "src/homechef/data/images/tomato_soup.png"
+    },
+    {
+        "id": "4",
+        "title": "Chickpea Salad",
+        "ingredients": ["chickpeas", "cucumber", "red onion", "feta cheese", "lemon juice", "olive oil", "parsley"],
+        "steps": [
+            "Rinse and drain chickpeas.",
+            "Chop cucumber, red onion, and parsley.",
+            "Combine all ingredients in a bowl.",
+            "Drizzle with lemon juice and olive oil.",
+            "Toss to combine and serve."
+        ],
+        "time_minutes": 15,
+        "difficulty": "Easy",
+        "image_path": "src/homechef/data/images/chickpea_salad.png"
+    },
+    {
+        "id": "5",
+        "title": "Pancakes",
+        "ingredients": ["flour", "baking powder", "sugar", "salt", "milk", "egg", "butter"],
+        "steps": [
+            "In a large bowl, sift together flour, baking powder, sugar, and salt.",
+            "In a separate bowl, whisk together milk, egg, and melted butter.",
+            "Pour the wet ingredients into the dry ingredients and mix until just combined.",
+            "Heat a lightly oiled pan over medium-high heat.",
+            "Pour or scoop the batter onto the pan.",
+            "Cook until bubbles appear on the surface, then flip and cook until browned on the other side."
+        ],
+        "time_minutes": 20,
+        "difficulty": "Easy",
+        "image_path": "src/homechef/data/images/pancakes.png"
+    },
+    {
+        "id": "6",
+        "title": "Chicken Stir-Fry",
+        "ingredients": ["chicken breast", "broccoli", "carrots", "bell pepper", "soy sauce", "ginger", "garlic", "sesame oil"],
+        "steps": [
+            "Slice chicken breast and chop vegetables.",
+            "In a small bowl, whisk together soy sauce, ginger, and garlic for the sauce.",
+            "Heat sesame oil in a wok or large skillet over high heat.",
+            "Add chicken and cook until no longer pink. Remove from pan.",
+            "Add vegetables to the pan and stir-fry until tender-crisp.",
+            "Return chicken to the pan and pour in the sauce.",
+            "Stir until everything is coated and heated through."
+        ],
+        "time_minutes": 30,
+        "difficulty": "Medium",
+        "image_path": "src/homechef/data/images/chicken_stir_fry.png"
+    },
+    {
+        "id": "7",
+        "title": "Veggie Omelette",
+        "ingredients": ["eggs", "milk", "spinach", "mushrooms", "bell pepper", "cheese", "salt", "pepper"],
+        "steps": [
+            "Whisk eggs and milk together in a bowl. Season with salt and pepper.",
+            "Chop spinach, mushrooms, and bell pepper.",
+            "Heat a non-stick pan over medium heat.",
+            "Pour egg mixture into the pan.",
+            "When the eggs begin to set, add vegetables and cheese.",
+            "Fold the omelette in half and cook until the cheese is melted."
+        ],
+        "time_minutes": 15,
+        "difficulty": "Easy",
+        "image_path": "src/homechef/data/images/veggie_omelette.png"
+    },
+    {
+        "id": "8",
+        "title": "Simple Tomato Pasta",
+        "ingredients": ["pasta", "canned tomatoes", "garlic", "onion", "olive oil", "basil", "parmesan cheese"],
+        "steps": [
+            "Cook pasta according to package directions.",
+            "While pasta cooks, heat olive oil in a pan.",
+            "Sauté chopped onion and garlic until fragrant.",
+            "Add canned tomatoes, break them up with a spoon.",
+            "Simmer for 10-15 minutes.",
+            "Stir in fresh basil and season with salt and pepper.",
+            "Drain pasta and toss with the sauce.",
+            "Serve topped with grated parmesan cheese."
+        ],
+        "time_minutes": 25,
+        "difficulty": "Easy",
+        "image_path": "src/homechef/data/images/simple_tomato_pasta.png"
+    }
+]

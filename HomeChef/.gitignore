@@ -1,0 +1,6 @@
+# Virtual Environment - DO NOT UPLOAD
+.venv/
+venv/
+
+# Ignore API keys and sensitive settings
+.env
